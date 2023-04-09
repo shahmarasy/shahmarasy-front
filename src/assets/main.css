@@ -1,0 +1,84 @@
+@import './base.css';
+
+span {
+    margin: 0;
+}
+
+.comment {
+    color: var(--color-comment);
+}
+
+.bracket {
+    color: var(--color-header);
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: auto;
+}
+
+.header_hr {
+    border: 1px solid var(--color-header-line);
+}
+
+.in_hr {
+    border: 1px solid var(--color-line);
+}
+
+.variables {
+    color: var(--color-variables);
+}
+
+.table_title {
+    color: var(--color-title);
+}
+
+.sections {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 100px;
+    max-width: 850px;
+}
+
+.sections .title {
+    color: var(--color-section-header);
+    font-size: large;
+}
+
+.created {
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    height: 60px;
+}
+
+.created .ctext {
+    display: inline-block;
+}
+
+.created .clogo {
+    display: inline-block;
+
+}
+
+.created .vuejs {
+    width: 25px;
+}
+
+.created .flask {
+    width: 60px;
+}
+
+@media (min-width: 1024px) {
+
+}
