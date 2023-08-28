@@ -27,10 +27,14 @@
   </header>
 
   <component :is="currentView" />
+
   <div class="created">
     <div class="clogo">
+      <div class="footerText">This Site Is Powered By:</div>
       <img class="flask" src="@/assets/Flask_logo.svg" alt="Flask Framework">
       <img class="vuejs" src="@/assets/Vue_logo.svg" alt="VueJS">
+      <img class="redis" src="@/assets/Redis_logo.svg" alt="Redis">
+      <img class="github" src="@/assets/Github_logo.svg" alt="Github">
     </div>
 
   </div>
@@ -72,4 +76,3 @@ export default {
   }
 }
 </script>
-<style scoped></style>

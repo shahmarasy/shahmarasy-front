@@ -75,10 +75,21 @@ a {
     width: 25px;
 }
 
-.created .flask {
-    width: 60px;
+.created .github {
+    width: 25px;
 }
 
-@media (min-width: 1024px) {
+.created .redis {
+    width: 25px;
+}
 
+.created .flask {
+    width: 60px;
+    margin-left: 230px;
+}
+.created .footerText {
+    display: inline-flex;
+    top: 0;
+    position: absolute;
+    width: 220px;
 }
