@@ -31,6 +31,7 @@
   <div class="created">
     <div class="clogo">
       <div class="footerText">This Site Is Powered By:</div>
+      <br class="mobile">
       <img class="flask" src="@/assets/Flask_logo.svg" alt="Flask Framework">
       <img class="vuejs" src="@/assets/Vue_logo.svg" alt="VueJS">
       <img class="redis" src="@/assets/Redis_logo.svg" alt="Redis">

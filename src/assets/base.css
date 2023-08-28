@@ -56,7 +56,22 @@ body {
     .desktop {
         display: none;
     }
-    .mobile-center{
+
+    .mobile-center {
         text-align: center;
     }
+
+    .created {
+        height: 100px !important;
+        width: 90%;
+    }
+
+    .created .flask {
+        margin-left: unset !important;
+    }
+
+    .sections {
+        margin-bottom: 200px !important;
+    }
+
 }
